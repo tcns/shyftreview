@@ -4,6 +4,8 @@ Evidence and reports for the Solana token [`CqPsrJcJq9DLefXZyWmj7vmvANYYkCoK94po
 
 Audit date: **23 October 2026**. Displayed times: **UTC+4**. This repository contains a historical snapshot; it does not monitor subsequent activity.
 
+**[Open the interactive chart online](https://tcns.github.io/shyftreview/)** - no download required.
+
 ## Start here
 
 | Purpose | File |
@@ -12,7 +14,7 @@ Audit date: **23 October 2026**. Displayed times: **UTC+4**. This repository con
 | Ask another AI to review the calculation | [Standalone AI review packet](english/AI-REVIEW-SHYFT-EN.md) |
 | Process exact amounts programmatically | [Structured JSON](english/audit-data-EN.json) |
 | Verify against raw transaction responses | [English evidence archive](english/evidence-EN.zip) |
-| Explore buys and sells by wallet | [English interactive chart](english/interactive-trades.html) - download and open in a browser |
+| Explore buys and sells by wallet | [Live English interactive chart](https://tcns.github.io/shyftreview/) |
 | Read the Russian report | [Russian PDF](SHYFT-audit-buybacks.pdf) / [Russian written report](report.md) |
 | Access the original Russian evidence package | [Russian evidence archive](evidence.zip) |
 
@@ -85,4 +87,4 @@ The verifier reconciles cash movements and token balances against the archived r
 - [Other expense adjustments](english/extra-expenses.csv)
 - [Collector flows](english/collector-flows.csv)
 
-English deliverables are in [`english/`](english/). The original Russian files and shared evidence tables are retained at the repository root. Interactive HTML files are self-contained and work locally; GitHub's source view does not execute them.
+English deliverables are in [`english/`](english/). The original Russian files and shared evidence tables are retained at the repository root. GitHub Pages publishes the `main` branch from the repository root. The [public site](https://tcns.github.io/shyftreview/) opens the English chart; the [Russian chart](https://tcns.github.io/shyftreview/interactive-trades.html) is also available. Interactive HTML files remain self-contained and can also be opened locally.
